@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+/* Положение текста сверху */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:50 px;
+  background: rgba(0, 0, 0, 0.0);
+  z-index:7;
+}
+
+/* Текст сверху */
+.navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+/* Цвет заднего фона у текста сверху */
+.navbar a:hover {
+  background: rgb(131, 215, 28);
+  color: black;
+}
+
+/* Положение всей платформы с главным текстом  */
+.main {
+  padding: 15px;
+  margin-left: 15%;
+  margin-top: 11%;
+
+}
+
+/* Положение платформы с гифкой, наложение */
+article, aside
+
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+   
+}
+
+
+article
+/* Описание платформы с главным */
+{
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, 
+rgba(55, 255, 0, 0.3) 51%, rgba(169,252,198,0.26934523809523814) 81%, 
+rgba(255,255,255,1) 100%);
+    
+    box-shadow: 0 0 10px rgba(23, 99, 0, 0.5); 
+    padding: 10px;
+    border-radius: 30px;
+    width: 80%;
+    margin-right: 5%;
+    z-index:-2;
+}
+
+
+/* Описание платформы с гифкой */
+
+aside {
+    position: relative;
+    width: 40%;
+    padding-left: 1.5rem;
+    margin-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #7de004;
+    font-family: sans-serif;
+    color: #098710;
+    width: 235px;
+      width: 25%;
+    background-color: #93ed85;
+
+    box-shadow: 0px 2px 5px #191c19;
+    border-radius: 5px;
+
+    padding: 10px;
+
+    color: rgb(16, 58, 9);
+    font-family: sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    z-index:1; 
+}
+
+/* Главный текст */
+
+aside > p {
+    margin: 1.5rem;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.9em;
+    color: rgb(0, 0, 0);
+    margin-right: 5%;
+    margin-left: 5%
+}
+
+/* Бамбук сверху */
+
+.imgW {
+  width: 110%;
+  height: 300px;
+  position: relative;
+   position: absolute;
+   top:0px;
+   left: 60px;
+   position: fixed;
+   z-index:5;
+}
+.imgW>img {
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 100%;
+  height: 100%;
+}
+
+aside img
+
+{
+
+    margin: 15px 15px;
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+<header>
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="about_us.html">About Us</a>
+  <a href="support.html">Support</a>
+
+</div>
+
+<div class="imgW">
+  <img src="images/banner.png">
+</div>
+
+
+</header>
+
+
+<div class="main">
+
+   
+  <section>
+            
+                    
+   <article>		
+                    
+               
+                <aside>
+                    <h1>This is our symbol :)</h1>
+                   
+                      
+                      <img src="images/gif3.gif" alt="PandaPicture" widht=80% height=auto />
+
+                      
+                    <p>Building a future in which
+                      <br> humans live in harmony <br>
+                      
+
+                    </p>
+                                         
+                </aside>
+
+
+<p>
+	Our Mission
+Our mission is to build a future in which people live in harmony with nature. From our experience as the world's leading independent conservation body, we know that the well-being of people, wildlife and the environment are closely linked. That's why we take an integrated approach to our work.
+
+We're striving to safeguard the natural world, helping people live more sustainably and take action against climate change. We spend a lot of time working with communities, with politicians and with businesses to find solutions so people and nature can thrive.
+
+Our projects are innovative, collaborative and based on scientific evidence. And we think big. We run a number of Global initiatives focussing on the regions and challenges where we can make the biggest difference - from the Arctic and the Amazon to responsible fishing.	
+
+
+ </article>
+</section>
+</div>
+ 
+<footer>
+<img src="images/footer2.png" alt=""  width=100%/>
+</footer>
+</div>
+
+
+</body>
+</html>

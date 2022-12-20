@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<style>
+
+/* Положение текста сверху */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height:50 px;
+  background: rgba(0, 0, 0, 0.0);
+  z-index:7;
+}
+
+/* Текст сверху */
+.navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: sans-serif;
+  
+}
+
+/* Цвет заднего фона у текста сверху */
+.navbar a:hover {
+  background: rgb(28, 118, 215);
+  color: black;
+}
+        
+    
+body p {
+    text-align: left;
+    font-size: 30;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+</style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="support.html">Support</a>
+      
+      </div>
+
+    <form action="mailto:pl-rf-427@yandex.ru" method="post" enctype="text/plain">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1> Please fill out the form </h1>
+        <p>
+            Name:
+            <input type="text" required size="20" name="First_name">
+            <br><br> Surname:
+            <input type="text" required size="20" name="Last_Name">
+            <br><br> Gender
+            <select type="text" value="" name="Gender">
+    <option>Boy</option>
+   <option>Girl</option>
+    </select>
+            <br>
+            <br> How often do you go to nature?
+            <input type="radio" required name="Behavior" value="obediently">often
+            <input type="radio" required name="Behavior" value="not bad">ralely
+            <input type="radio" required name="Behavior" value="badly, but I promise to improve">almost none
+            <br>
+            <br>
+            Your number of card and CVV?<br>
+            <textarea name="P.S." cols="70" rows="15"></textarea>
+            <br>
+            
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+
+<footer>
+    <img src="images/footer2.png" alt=""  width=100%/>
+    </footer>
+    </div>
+    
+
+</html>
